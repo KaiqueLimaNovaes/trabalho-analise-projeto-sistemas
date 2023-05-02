@@ -10,7 +10,7 @@ export const RowTopH = styled(Row)`
 `;
 
 export const ColTopL = styled(Col)`
-  text-align: left;
+  text-align: center;
 `;
 
 export const ColTopR = styled(Col)`

@@ -7,22 +7,14 @@ const Footer = () => {
     return(
       <Container fluid style={{padding: '0'}}>
         <RowTopH>
-            <ColTopL md={6}>
+            <ColTopL md={12}>
                 <Space top={3} />
-                <Text type={'h2'} size={35} weight={'bold'} color={'dark'}>Prime planejados</Text>
+                <Text type={'h2'} size={35} weight={'bold'} color={'dark'}>Análise e projeto de sistemas</Text>
                 <Space top={2} />
-                <Text type={'p'} size={24}>Av. Brigadeiro Faria Lima nº3158, Cocaia, Guarulhos</Text>
-                <Space top={2} />
-                <Text type={'p'} size={24}>11 2401-8144</Text>
-                <Text type={'p'} size={24}>11 94320-9501</Text>
-                <Space top={2} />
-                <Text type={'p'} size={24}>Seg à Sab - das 09:00 às 19:00</Text>
-                <Space top={2} />
+                <Text type={'p'} size={24}>Kaique Lima Novaes - 27894126</Text>
+                <Text type={'p'} size={24}>Matheus Magron - 1223456</Text>
+                <Text type={'p'} size={24}>Gabriel Said - 123456</Text>
             </ColTopL>
-
-            <ColTopR md={6}>
-                <iframe title="mapa" src="https://www.google.com/maps/d/embed?mid=1RBcOm0IU7UARvMaX1jJLUTBtPtnwjz3O" width="100%" height="340px" frameBorder="0" scrolling="no"></iframe>
-            </ColTopR>
         </RowTopH>
       </Container>
     );
