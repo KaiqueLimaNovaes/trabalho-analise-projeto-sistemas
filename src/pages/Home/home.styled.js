@@ -28,7 +28,7 @@ export const Texto = styled.h2`
 export const ImgEx = styled.img`
   padding-left: 0px;
   width: 100%;
-  height: 500px;
+  max-height: 500px;
 `;
 
 export const RowTopH = styled(Row)`
@@ -57,7 +57,6 @@ export const Section2 = styled.div`
   align-items: center;
   background-color: ${({ theme }) => theme.palette.primary.main};
   width: 95%;
-  height: 500px;
   padding: 20px;
   border-radius: 40px;
 `;
@@ -65,7 +64,7 @@ export const Section2 = styled.div`
 export const ImgEx2 = styled.img`
   padding-left: 0px;
   width: 100%;
-  height: 450px;
+  max-height: 450px;
   border-radius: 5px;
 `;
 
