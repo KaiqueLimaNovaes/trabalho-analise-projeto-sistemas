@@ -3,15 +3,16 @@ const light = {
   
     palette: {
       primary: {
-        main: '#E3AB96', //#00A1E4
-        second: '#3B3943', //#2C2C54
-        third: '#FEECEA', //#EEF0F8
+        main: '#0D9263',
+        second: '#0E5135',
+        third: '#4ABA91',
+        fourth: '#D4CE46',
+        fifth: '#4ABA91',
         alert: "#FF0000",
-        text: "#ffffff",
+        text: "##494B4B",
         placeholder: '#A9A9A9',
         dark: "#000000",
-        whats: "#27AD3B",
-        edit: "#00A1E4"
+        white: "#fff"
       }
     },
   }
