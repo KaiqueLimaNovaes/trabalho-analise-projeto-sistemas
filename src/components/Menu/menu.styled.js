@@ -23,11 +23,11 @@ export const ItensMenu = styled(Nav.Link)`
     font-size: 20px;
     font-weight: bold;
     //padding: 0px;
-    color: ${({ theme }) => theme.palette.primary.text} !important;
+    color: ${({ theme }) => theme.palette.primary.white} !important;
     text-decoration:none;
     border-radius: 15px;
     &:hover{
-        color: ${({ theme }) => theme.palette.primary.second} !important;
+        color: ${({ theme }) => theme.palette.primary.dark} !important;
     }
 `;
 

@@ -5,7 +5,6 @@ export const RowTopH = styled(Row)`
   height: auto;
   padding-top: 4px;
   padding-bottom: 4px;
-  background-color: ${({ theme }) => theme.palette.primary.main};
   margin: 0;
 `;
 
