@@ -68,3 +68,11 @@ export const ImgEx2 = styled.img`
   height: 450px;
   border-radius: 5px;
 `;
+
+export const RowTopH2 = styled(Row)`
+  height: auto;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin: 0;
+  justify-content: space-around;
+`;

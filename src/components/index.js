@@ -1,5 +1,5 @@
 //export { default as Button} from './Button';
-//export { default as CardProduto } from './CardProduto';
+export { default as CardProduto } from './CardProduto';
 //export { default as Checkbox } from './Form/Checkbox';
 export { default as Footer } from './Footer';
 //export { default as InputPassword } from './Form/Inputs/InputPassword'
