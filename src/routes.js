@@ -1,11 +1,11 @@
-import React, { useContext } from 'react';
-import { Switch, Route, BrowserRouter, Redirect } from "react-router-dom";
+import React, { /*useContext*/ } from 'react';
+import { Switch, Route, BrowserRouter } from "react-router-dom";
 //import {IsAuthenticated} from "./auth";
 
 import { Layout } from './components'
 import * as Pages from './pages';
 
-import { Context } from './auth/AuthContext';
+//import { Context } from './auth/AuthContext';
 
 /*
 const PrivateRoute = ({component: Component, ...rest}) => {

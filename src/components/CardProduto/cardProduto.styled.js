@@ -29,7 +29,6 @@ export const ImgProd = styled.img`
     max-width: 100%;
     min-width: 100%;
     height: 180px;
-    object-fit: cover;
     margin-left: 0;
     margin-right: 0;
     border-radius: 10px 10px 0 0;

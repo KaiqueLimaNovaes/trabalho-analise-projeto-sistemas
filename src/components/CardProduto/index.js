@@ -1,6 +1,6 @@
 import { useHistory } from 'react-router-dom';
 
-import { Card, ImgProd, Linha, Coluna, Coluna2, BtnLeft, BtnRight, Linha2, Linha3 } from "./cardProduto.styled";
+import { Card, ImgProd, Linha, Coluna, Linha3 } from "./cardProduto.styled";
 
 import Text from '../Text';
 import Space from '../Space';

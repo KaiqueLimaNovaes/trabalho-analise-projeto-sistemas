@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import { RowTopH, ColTopL, ColTopR } from "./footer.styled";
+import { RowTopH, ColTopL } from "./footer.styled";
 import { Text, Space } from '../';
 
 const Footer = () => {

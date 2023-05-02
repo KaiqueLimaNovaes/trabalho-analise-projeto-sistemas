@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Row, Col } from "react-bootstrap";
-import { Carousel } from 'react-responsive-carousel';
+//import { Carousel } from 'react-responsive-carousel';
 
 export const Section = styled.div`
   justify-content: center;
