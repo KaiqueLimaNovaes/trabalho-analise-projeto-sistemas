@@ -2,6 +2,11 @@ import styled from 'styled-components'
 import { Row, Col } from "react-bootstrap";
 import { Carousel } from 'react-responsive-carousel';
 
+export const Section = styled.div`
+  justify-content: center;
+  align-items: center;
+`;
+
 export const Section1 = styled.div`
   justify-content: center;
   align-items: center;
@@ -44,4 +49,22 @@ export const ColTopR = styled(Col)`
   text-align: center;
   justify-content: center;
   align-items: center;
+`;
+
+export const Section2 = styled.div`
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: ${({ theme }) => theme.palette.primary.main};
+  width: 95%;
+  height: 500px;
+  padding: 20px;
+  border-radius: 40px;
+`;
+
+export const ImgEx2 = styled.img`
+  padding-left: 0px;
+  width: 100%;
+  height: 450px;
+  border-radius: 5px;
 `;
