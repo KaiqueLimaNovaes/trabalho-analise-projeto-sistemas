@@ -62,7 +62,7 @@ export const ItensMenuDrop = styled(NavDropdown)`
 `;
 
 export const Toggle = styled(Navbar.Toggle)`
-    background-color: ${({ theme }) => theme.palette.primary.text} !important;
+    background-color: ${({ theme }) => theme.palette.primary.white} !important;
 `;
 
 export const ContMenu = styled(Container)`
